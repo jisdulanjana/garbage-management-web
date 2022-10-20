@@ -1,0 +1,168 @@
+*{
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.section{
+    width: 100%;
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,
+            rgba(0, 0, 0, 0.5)50%), url(Him2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+}
+
+.section .container{
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+
+.container .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container .title h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #050505;
+    font-family: 'Times New Roman';
+    font-weight: 600;
+}
+
+.container .title h1::after{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: #080808;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+
+.content{
+    float: left;
+    width: 55%;  
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+
+.image-section img{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+
+.content  h2{
+    color: #0fdfb2e5;
+    font-family: 'Times New Roman';
+    font-size: 90px;
+    font-weight: 600;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+ .content  p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(15, 15, 15);
+}
+
+ 
+.content span{
+    color: rgb(8, 4, 75);
+    font-size: 60px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+
+
+.social{
+    width: 100%;
+    clear: both;
+    margin-top: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+.social ion-icon{
+    color: #fff;
+    font-size: 30px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    line-height: 45px;
+    text-align: center;
+    background-color: #1bdf84;
+    margin: 0px 5px;
+}
+
+.social ion-icon:hover{
+    color: rgb(12, 202, 98);
+    background-color: #24c76d;
+    transition: 1s ease;
+    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 768px){
+    .section{
+        width: 100%;
+        background:linear-gradient(to top,rgba(9, 204, 113, 0.5)50%,
+                rgba(0, 0, 0, 0.5)50%), url(Him2.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 150vh;
+    }
+   
+    .section  .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    .content{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float: none;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .container .title h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .button{
+        text-align: center;
+    }
+    .button a{
+        padding: 6px 15px;
+        font-size: 16px;
+    }
+    .social ion-icon{
+        font-size: 20px;
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+    }
+    
+}
